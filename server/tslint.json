@@ -1,0 +1,38 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:latest"
+  ],
+  "jsRules": {},
+  "rules": {
+    "max-line-length": [
+      true,
+      200
+    ],
+    "member-access": [
+      false,
+      "check-accessor"
+    ],
+    "no-console": [
+      true,
+      "log",
+      "warning"
+    ],
+    "no-implicit-dependencies": [
+      true,
+      "dev"
+    ],
+    "no-submodule-imports": false,
+    "object-literal-sort-keys": false,
+    "quotemark": [
+      true,
+      "double"
+    ],
+    "semicolon": [
+      true,
+      "always"
+    ]
+  },
+  "rulesDirectory": [],
+  "compilerOptions": {}
+}
